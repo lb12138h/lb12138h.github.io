@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  404
+
+  <script>
+    const redirect = () => {
+        console.log('location', location);
+        const pathList = location.pathname.split('/');
+        if(pathList.length < 2) {
+          // return void location.replace('')
+        }
+        if(!pathList.at(-1).includes('.')){
+          return void location.replace(`/${pathList[0]}`)
+        }
+    }
+    
+    redirect()
+  </script>
+</body>
+</html>
