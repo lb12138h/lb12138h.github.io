@@ -1,1 +1,0 @@
-import{f as c,r,w as i}from"./index-D4y1DPfe.js";const f=()=>{const s=c(),[t,a]=r.useState();return r.useEffect(()=>{const n=s.pathname.split("/").filter(e=>e&&e.trim())[1],o=i[n];(o==null?void 0:o.routersPath)!==(t==null?void 0:t.routersPath)&&(a(o),console.log("webConfig",t))},[s,t]),t},p=f;export{p as u};

@@ -1,0 +1,1 @@
+import{u as o,r as s,g as r,j as a,O as n}from"./index-uBRBzbOd.js";import{u as f}from"./useWebConfig-BS-vEJhy.js";const g=()=>{const{config:e}=o(),t=f();return s.useEffect(()=>{!e||!t||r(t)},[t,e]),a.jsx(n,{})};export{g as default};
