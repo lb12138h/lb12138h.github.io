@@ -1,0 +1,1 @@
+import{u as o,r as s,j as r,O as a}from"./index-DERllzhn.js";import{u as n}from"./useWebConfig-BALFXIIr.js";const i=()=>{const{config:e}=o(),t=n();return s.useEffect(()=>{!e||!t||t.db.getDataFromCloud()},[t,e]),r.jsx(a,{})};export{i as default};

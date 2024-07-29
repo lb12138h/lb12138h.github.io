@@ -1,1 +1,0 @@
-import{u as o,r as s,g as r,j as a,O as n}from"./index-ossK1LZ4.js";import{u as f}from"./useWebConfig-B6SoYZ-h.js";const g=()=>{const{config:e}=o(),t=f();return s.useEffect(()=>{!e||!t||r(t)},[t,e]),a.jsx(n,{})};export{g as default};
